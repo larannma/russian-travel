@@ -8,7 +8,7 @@
   border: 1px solid white;
   padding: 92px 48px 92px 48px;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   grid-template-columns: repeat(auto-fit, minmax(283px, max-content));
 }
 
