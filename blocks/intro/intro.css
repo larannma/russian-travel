@@ -1,0 +1,18 @@
+.intro{
+  padding: 92px 442px 0 148px;
+  width: 100%;
+  /* border: 1px solid white; */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro{
+    padding: 92px 286px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro{
+    padding: 88px 24px 0 24px;
+  }
+}

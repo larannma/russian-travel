@@ -1,0 +1,6 @@
+.header__links{
+    color: #FFFFFF;
+    display: flex;
+    gap: 18px;
+    padding-bottom: 10px;
+}
