@@ -1,15 +1,13 @@
 .photo-grid{
   display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 284px);
+  grid-template-columns: repeat(auto-fit, minmax(283px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   column-gap: 16px;
   row-gap: 16px;
   box-sizing: border-box;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 92px 48px 92px 48px;
   justify-content: center;
-  /* width: 100%; */
-  grid-template-columns: repeat(auto-fit, minmax(283px, max-content));
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,5 +20,15 @@
 @media screen and (max-width: 768px) {
   .photo-grid{
     padding: 92px 24px 92px 24px;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .photo-grid{
+    padding: 92px 12px 92px 12px;
+    column-gap: 12px;
+    row-gap: 12px;
   }
 }
