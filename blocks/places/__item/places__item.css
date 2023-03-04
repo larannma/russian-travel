@@ -1,0 +1,37 @@
+.places__item{
+  list-style: none;
+  font-family: 'Inter', Arial, sans-serif;
+  display: grid;
+  /* grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content); */
+  grid-template-columns: 440px 1fr;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "title url"
+    "image text";
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  /* And this */
+  .places__item {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    /*     comment here */
+    grid-template-areas:
+        "title"
+        "url"
+        "image"
+        "text";
+}
+  .galery__title {
+    font-size: 32px;
+  }
+  .galery__description {
+    font-size: 16px;
+  }
+
+  .places{
+    padding: 0 12px 0 12px;
+  }
+
+  }
