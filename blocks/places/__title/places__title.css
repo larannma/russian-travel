@@ -6,3 +6,9 @@
   line-height: 1;
   text-align: start;
 }
+
+@media screen and (max-width: 767px) {
+  .places__title{
+    font-size: 32px;
+  }
+}

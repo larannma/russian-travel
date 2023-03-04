@@ -29,4 +29,7 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__paragraph/places__pharagraph.css);
-
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
