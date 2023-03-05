@@ -42,14 +42,14 @@
 
 @media screen and (max-width: 1024px) {
   .card{
-    padding: 115px 104px;
+    padding: 195px 232px;
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
   .card{
-    padding: 33px 16px;
+    padding: 115px 104px;
     min-height: 480px;
   }
 }
