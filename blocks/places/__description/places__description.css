@@ -1,5 +1,5 @@
 .places__description{
-  min-width: 288px;
+  /* min-width: 288px; */
   width: 100%;
   grid-area: text;
   font-size: 18px;

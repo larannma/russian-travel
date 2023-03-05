@@ -2,8 +2,8 @@
   list-style: none;
   font-family: 'Inter', Arial, sans-serif;
   display: grid;
-  /* grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content); */
-  grid-template-columns: 440px 1fr;
+  grid-template-columns:  minmax(1fr, max-content)  minmax(min-content, max-content);
+  grid-template-columns: 340px 1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
     "title url"
