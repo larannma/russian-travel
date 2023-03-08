@@ -3,3 +3,7 @@
   padding-bottom: 26px;
   line-height: 1.6;
 }
+
+.places__paragraph:last-child{
+  padding-bottom: 0;
+}
