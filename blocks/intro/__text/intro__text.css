@@ -3,3 +3,9 @@
   line-height: 1.6;
   margin: 40px 0 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__text{
+    line-height: 26px;
+  }
+}
