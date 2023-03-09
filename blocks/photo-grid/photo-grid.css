@@ -5,7 +5,7 @@
   column-gap: 16px;
   row-gap: 16px;
   box-sizing: border-box;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 92px 48px 92px 48px;
   justify-content: center;
   /* aspect-ratio: 4/3; */

@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .places{
     padding: 0 48px 0 48px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 915px) {
   .places{
     padding: 0 24px 0 24px;
   }
