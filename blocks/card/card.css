@@ -1,5 +1,5 @@
 .card{
-  /* min-height: 200px; */
+  max-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,6 @@
   text-decoration: none;
   background-image: url('../../images/__background.png');
   background-size: cover;
-  /* aspect-ratio: 16/9; */
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
