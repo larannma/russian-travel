@@ -8,7 +8,7 @@
   /* border: 1px solid white; */
   padding: 92px 48px 92px 48px;
   justify-content: center;
-  aspect-ratio: 4/3;;
+  aspect-ratio: 4/3;
 }
 
 @media screen and (max-width: 1024px) {
