@@ -1,7 +1,6 @@
 .card{
   min-height: 200px;
   display: flex;
-  max-width: 1184px;
   flex-direction: column;
   justify-content: center;
   padding: 245px 312px;
